@@ -31,16 +31,6 @@ int main()
         for(char c = 'a'; c <= 'z'; c++)
             if(rec[c] == m) b += c;
 
-        for(int i = 1; i < b.size(); i++) {
-            int k = b[i];
-            int j = i - 1;
-            while(j >= 0 && k < b[j]) {
-                b[j + 1] = b[j];
-                j--;
-            }
-            b[j + 1] = k;
-        }
-
         cout << b << "\n";
     }
 
