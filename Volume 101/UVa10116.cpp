@@ -42,22 +42,19 @@ int main()
                     cout << t << " step(s) to exit\n";
                     break;
                 }
-            }
-            else if(x == 'S') {
+            } else if(x == 'S') {
             	row++;
                 if(row > a) {
                     cout << t << " step(s) to exit\n";
                     break;
                 }
-            }
-            else if(x == 'E') {
+            } else if(x == 'E') {
             	col++;
                 if(col > b) {
                     cout << t << " step(s) to exit\n";
                     break;
                 }
-            }
-            else {
+            } else {
             	col--;
                 if(col < 1) {
                     cout << t << " step(s) to exit\n";
