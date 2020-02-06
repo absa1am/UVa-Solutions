@@ -10,13 +10,13 @@ def divisors(n):
 				d.append(n // i)
 		i = i + 1
 	return d
-	
+
 def gcd(a, b):
 	if b == 0:
 		return a
 	else:
 		return gcd(b, a % b)
-		
+
 n = int(input())
 while n != 0:
 	x = divisors(n)
