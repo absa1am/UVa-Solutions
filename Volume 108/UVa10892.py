@@ -9,10 +9,10 @@ def divisors(n):
 			if i != n // i:
 				d.append(n // i)
 		i = i + 1
-	return d
+        return d
 
 def gcd(a, b):
-	if b == 0:
+        if b == 0:
 		return a
 	else:
 		return gcd(b, a % b)
